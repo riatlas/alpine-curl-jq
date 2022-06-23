@@ -10,9 +10,9 @@ Pull docker image `docker pull dwdraju/alpine-curl-jq`
 ### Example
 **curl**
 ```
-docker run dwdraju/alpine-curl-jq curl https://www.google.com
+docker run ghcr.io/robyrobot/alpine-curl-jq:latest curl https://www.google.com
 ```
 **curl, jq**
 ```
-docker run dwdraju/alpine-curl-jq curl -s https://api.github.com/repos/github/hub/forks | jq .[].id
+docker run ghcr.io/robyrobot/alpine-curl-jq:latest curl -s https://api.github.com/repos/github/hub/forks | jq .[].id
 ```
